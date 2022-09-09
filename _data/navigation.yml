@@ -6,9 +6,7 @@ main:
     url: /tags/
   - title: "Search"
     url: /search/
-<<<<<<< HEAD
 
-=======
     
 docs:
   - title: "대목차"
@@ -17,7 +15,8 @@ docs:
         url: /categories/
       - title: "Tag"
         url: /tags/
->>>>>>> 7d22f7cc3e21bfbab1ee212250b5939749274e87
+
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
