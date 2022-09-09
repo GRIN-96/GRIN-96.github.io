@@ -1,22 +1,26 @@
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
-<link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/assets/logo.ico/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}/assets/logo.ico/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/assets/logo.ico/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/assets/logo.ico/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/assets/logo.ico/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}/assets/logo.ico/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="{{site.baseurl}}/assets/logo.ico/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/assets/logo.ico/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/logo.ico/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="{{site.baseurl}}/assets/logo.ico/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/logo.ico/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="{{site.baseurl}}/assets/logo.ico/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/logo.ico/favicon-16x16.png">
-<link rel="manifest" href="{{site.baseurl}}/assets/logo.ico/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="{{site.baseurl}}/assets/logo.ico/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
+<head>
+    <link rel="shortcut icon" href="/assets/favicon/p0.png?" type="image/x-icon">
+    <link id= "favicon" rel="icon" href="#" type="image/x-icon">
+    <!--...-->
+
+    <script>
+      // favicon
+        var faviconRoute = '/assets/favicon/';
+        var faviconNames = ['p0.png', 'p1.png', 'p2.png', 'p3.png', 'p4.png',
+                        'p5.png', 'p6.png', 'p7.png', 'p8.png', 'p9.png']; 
+    
+        var idx = 0;
+    
+        setInterval(func, 300);
+    
+        function func() {
+            document.querySelector("#favicon").setAttribute('href', faviconRoute + faviconNames[idx++]);
+            idx %= faviconNames.length;
+        }
+    </script>
+</head>
 
 <!-- end custom head snippets -->

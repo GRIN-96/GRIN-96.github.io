@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "ko-KR"
 title                    : "🔋 그린이 그린 그림 ⛳"
 title_separator          : "|"
-subtitle                 : "small positive action"
+subtitle                 : "꾸준히 성장하는 개발자 👩🏻‍💻"
 name                     : "GRIN_96"
 description              : "Grin_96의 블로그 입니다"
 url                      : "https://GRIN-96.github.io"
@@ -76,7 +76,7 @@ google:
 # SEO Related
 google_site_verification :
 bing_site_verification   :
-naver_site_verification  :
+naver_site_verification  : "055a7d853ff0d014cf89df67089f90fbf1ea1a49"
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -294,5 +294,7 @@ defaults:
       show_date : true
       future: true
       published: true
+      sidebar:
+          nav: "docs"
 
 date_forma: "%Y-%m-%d"
